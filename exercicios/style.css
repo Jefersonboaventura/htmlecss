@@ -1,0 +1,90 @@
+:root{
+    --cor-principal: #011C40;
+    --cor-titulos: #011126;
+    --cor-botoes: #F2E205;
+    --cor-design: #D99F59;
+    --cor-neutra: #0D0D0D;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: #011C40;
+    width: 100%;
+    height: 3em;
+    align-items: center;
+    
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+ }
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: raleway;
+}
+body{
+    background-color: var(--cor-principal);
+}
+
+main{
+    display: flex;
+
+}
+.vp-left{
+    width: 50%;
+    height: 50vh;
+    align-items: stretch;
+    justify-content: center;
+}
+.vp-right{
+    width: 50%;
+    height: 100vh;
+}
+.vp-titulo{
+    color: var(--cor-design);
+    font-family: 'bebas neue', sans-serif;
+}
+
+.vp-filho-top{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+.vp-filho-bottom{
+    background-color: #011C40;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 45%;
+    height: 80%;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px;
+}
+.vp-foto{
+    background-color: #D99F59;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+p{
+    text-align: center;
+}
