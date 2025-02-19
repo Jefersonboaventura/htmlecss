@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'passion one', sans-serif;
+    font-size: 80px;
+}
+.first{
+    font-size: 100px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    
+}
+a:hover{
+     text-decoration: underline;
+}
+
+p{
+    font-family: 'patrick hand', sans-serif;
+    font-size: 50px;
+    text-align: left;
+}
+
+.conteudo1{
+    width: 40%;
+    padding: 10px;
+}
+
+.conteudo2{
+    background-color: #000;
+    background-image: url(imagens/pexels-pixabay-64210.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.caixa{
+    width: 40%;
+    height: auto;
+    background-color: #00000096;
+    color: #fff;
+}
+
+.conteudo3{
+    width: 40%;
+    padding: 10px;
+}
+.conteudo4{
+    background-image: url(imagens/pexels-suzyhazelwood-1157151.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.caixa2{
+    width: 40%;
+    height: auto;
+    background-color: #00000096;
+    color: #fff;
+}
+
+.conteudo5{
+    width: 40%;
+    padding: 10px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodapé{
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+}
