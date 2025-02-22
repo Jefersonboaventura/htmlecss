@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+:root{
+    --cor-principal: #011C40;
+    --cor-titulos: #011126;
+    --cor-botoes: #F2E205;
+    --cor-design: #D99F59;
+    --cor-neutra: #0D0D0D;
+    --cor-opcional: #f2f2f2;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-size: 1.1em;
+    color: var(--cor-opcional);
+    text-decoration: none;
+}
+a:hover{
+    color:#D99F59;
+}
+header nav{
+    background-color: var(--cor-principal);
+    width: 100%;
+    height: 3em;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:var(--cor-principal);
+    width: 100%;
+    height: 3em;
+}
+
+header nav ul li{
+    list-style: none;
+    font-family:'Raleway', serif;
+    font-weight: 600;
+}
+
+section.normal{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--cor-opcional);
+}
+
+section.imagem{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-neutra);
+    
+}
+#universo{
+    background-image: url(imagens/universo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 5px;
+}
+
+#projetos{
+    background-image: url(imagens/notebook.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 5px;
+}
+
+.box-left{
+    width: 50%;
+    height: 100vh;
+    background-color:var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+
+}
+.box-right{
+    width: 50%;
+    height: 100vh;
+    background-color: var(--cor-principal);
+}
+
+section#inicio{
+    display: flex;  
+}
+section#inicio div.apresentação{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    width: 100%;
+    height: 50%;
+} 
+
+section#inicio div.redes-sociais{
+    background-color:var(--cor-principal);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+section#inicio div.apresentação h1{
+    font-family: 'Caveat', sans-serif;
+    font-size: 4em;
+}
+.nome{
+    color: var(--cor-opcional);
+}
+.sobrenome{
+    color: var(--cor-design);
+}
+
+section#inicio div.apresentação p{
+    color: var(--cor-opcional);
+    font-size: 2em;
+    font-family: 'Caveat', sans-serif;
+}
+img{    
+    height: 40px;
+    width: 40px;
+    
+}
+.btn-download{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.btn-download button{
+    width: 200px;
+    height: 50px;
+    background-color: var(--cor-design);
+    color: var(--cor-titulos);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif ;
+}
+.btn-download button:hover{
+    background-color: #b38349;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para telas menores (abaixo de 768px) */
+
+@media(max-width: 768px){
+    header nav{
+        height: auto;
+        padding: 10px 0;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    header nav ul li{
+        padding: 10px;
+        font-size: 1.1em;
+    }
+}
+
+@media(max-width: 480px){
+    header nav{
+        padding: 5px;
+    }
+
+    header nav ul li{
+        font-size: 1em;
+    }
+}
